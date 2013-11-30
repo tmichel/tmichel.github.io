@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <header>
+          <!-- <div class="header"> -->
+            <h1>
+              <a href="/">{{ site.author.name }}</a>
+              <span>{{site.tagline}}</span>
+            </h1>
+            <ul class="links">
+              <li><a href="/">home</a></li>
+              <li><a href="/about">about</a></li>
+            </ul>
+          <!-- </div> -->
+          </header>
+
+          {{ content }}
+
+          <footer>
+            <div class="contact">
+              <p>
+                {{site.author.name}}<br />
+                student, geek, etc.<br />
+                {{site.author.email}}
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/tmichel">github.com/tmichel</a><br />
+                <a href="https://twitter.com/tmichelberger">twitter.com/tmichelberger</a><br />
+              </p>
+            </div>
+            <div style="clear: both;">
+              Created with <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+            </div>
+          </footer>
+        </div>
+
+    </body>
+</html>

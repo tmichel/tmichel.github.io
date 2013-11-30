@@ -1,0 +1,13 @@
+tagline: "the cake is a lie"
+author:
+    name: "Tamás Michelberger"
+    email: "tomi.michel@gmail.com"
+markdown: redcarpet
+pygments: true
+permalink: pretty
+
+redcarpet:
+    extensions:
+        - autolink
+        - strikethrough
+        - no_intra_emphasis
