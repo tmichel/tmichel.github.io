@@ -165,8 +165,9 @@ footer .rss img {
 /* standard */
 .post pre {
   border: 1px solid #ddd;
+  border-radius: 3px;
   background-color: #eef;
-  padding: 0 .4em;
+  padding: .2em .4em;
 }
 
 .post ul, .post ol {
@@ -176,7 +177,8 @@ footer .rss img {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .2em;
+  padding: .1em .2em;
+  border-radius: 3px;
 }
 
 .post pre code {
