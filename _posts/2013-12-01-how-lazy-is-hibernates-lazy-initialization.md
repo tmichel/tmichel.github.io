@@ -3,6 +3,7 @@ layout: post
 title: "How lazy is Hibernate's lazy initialization?"
 category: til
 tags: java hiberate json rest serialization
+date: 2013-12-01 20:00
 ---
 
 Originally I was going to give a more catchy title, but then I figured there is
