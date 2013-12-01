@@ -195,3 +195,9 @@ footer .rss img {
 .post pre.terminal code {
   background-color: #333;
 }
+
+.post hr {
+  border: 0;
+  background: #ddd;
+  height: 1px;
+}
