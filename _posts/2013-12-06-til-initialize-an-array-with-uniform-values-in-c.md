@@ -15,5 +15,5 @@ initialize an array with a uniform value you can do the following:
 char my_string[30] = {0};
 
 /* Or for pointers */
-char *my_string_array = { NULL };
+char *my_string_array[30] = { NULL };
 ~~~
