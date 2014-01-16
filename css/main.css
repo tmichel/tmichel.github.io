@@ -201,3 +201,10 @@ footer .rss img {
   background: #ddd;
   height: 1px;
 }
+
+.post blockquote {
+  margin-left: 30px;
+  border-left: 5px solid #ddd;
+  padding-left: 5px;
+  color: #777;
+}
