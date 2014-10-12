@@ -120,5 +120,5 @@ func TestEmail_SendSuccessful(t *testing.T) {
 }
 ~~~
 
-[All to code stiched together](https://gist.github.com/tmichel/a57bd4033db3e90f5516).
+[All the code stiched together](https://gist.github.com/tmichel/a57bd4033db3e90f5516).
 Download it and run `go test email_test.go` to run the test.
