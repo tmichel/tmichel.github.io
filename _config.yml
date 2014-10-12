@@ -5,7 +5,7 @@ author:
     name: "Tamás Michelberger"
     email: "tomi.michel@gmail.com"
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: pretty
 timezone: Europe/Budapest
 
