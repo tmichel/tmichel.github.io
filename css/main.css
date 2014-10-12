@@ -168,6 +168,9 @@ footer .rss img {
   border-radius: 3px;
   background-color: #eef;
   padding: .2em .4em;
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
 }
 
 .post ul, .post ol {
