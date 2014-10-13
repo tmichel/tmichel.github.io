@@ -31,7 +31,7 @@ Building the email's body, loading configuration and all the necessary
 preparation - that has to be tested somehow.
 
 You could use an existing SMTP server (such as Gmail) but introducing external
-dependencies to your tests are a bad idea. You might think that mocking the SMPT
+dependencies to your tests are a bad idea. You might think that mocking the SMTP
 server by spinning up a local from your test case could solve your problem. It
 certainly would but it is unnecessarily difficult and time consuming. Go has two
 useful features that really helps with testing. Interfaces and first-class
@@ -67,7 +67,7 @@ func (e *emailSender) Send(to []string, body []byte) error {
 ~~~
 
 There is no call to `smtp.SendMail` yet, although in a constructor function we
-can easily wire it together. We pass the a function reference to `smpt.SendMail`
+can easily wire it together. We pass the a function reference to `smtp.SendMail`
 to the a newly created `emailSender` instance - the outside world will never
 know the difference.
 
