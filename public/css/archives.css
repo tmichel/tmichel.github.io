@@ -1,0 +1,9 @@
+/*
+ * Stylesheets for the archives page
+ */
+
+.posts.archives .post-date {
+  display: inline;
+  font-size: 0.75em;
+  color: #c0c0c0;
+}

@@ -1,0 +1,10 @@
+/*
+ * Stylesheet overrides of the original theme
+ */
+
+/* Horizontally scrollable code boxes */
+pre {
+  overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
+}
