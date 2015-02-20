@@ -8,3 +8,15 @@ pre {
   white-space: pre;
   word-wrap: normal;
 }
+
+.post > p > img {
+  margin: auto;
+}
+
+html {
+  font-family: "Merriweather", serif;
+}
+
+.post {
+ font-size: 0.9rem;
+}

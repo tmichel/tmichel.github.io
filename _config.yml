@@ -17,7 +17,7 @@ description: >
   and open source. Just the usual stuff.
 url:                 http://tmichel.github.io
 baseurl:             /
-paginate:            10
+paginate:            5
 
 # About/contact
 author:
@@ -27,7 +27,8 @@ author:
   github:            https://github.com/tmichel
 
 redcarpet:
-    extensions:
-        - autolink
-        - strikethrough
-        - no_intra_emphasis
+  extensions:
+    - autolink
+    - strikethrough
+    - no_intra_emphasis
+    - footnotes
