@@ -12,9 +12,7 @@ timezone: Europe/Budapest
 # Setup
 title:               Please be careful
 tagline:             'the cake is a lie'
-description: >
-  Mostly ramblings about software, frameworks, programming languages
-  and open source. Just the usual stuff.
+description:         "Mostly ramblings about software, frameworks, programming languages and open source. Just the usual stuff."
 url:                 http://tmichel.github.io
 baseurl:             /
 paginate:            5
