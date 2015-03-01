@@ -23,7 +23,7 @@ This means I can have a generic table component to render `<table>` elements and
 
 ## The Rails way
 
-What I described above is simply not possible with Rails. The best you can do is create helpers or [helper classes][2] which spit out some string. This way you lose the flexibility and clarity of templates because you have to shove pieces of html into your ruby class or use the clanky `content_tag` that Rails provides.
+What I described above is simply not possible with Rails. The best you can do is create helpers or [helper classes][2] which spit out some string. This way you lose the flexibility and clarity of templates because you have to shove pieces of html into your ruby class or use the clunky `content_tag` that Rails provides.
 
 Another option could be a partial with a backing (view)model (or presenter if you like). This is a bit better but there is a huge disconnect between the template and the view model/logic. You have to remember to pass in the right view model every time you want to use your partial + view model combo. Not to mention that the syntax is pretty ugly:
 
@@ -137,7 +137,7 @@ I would much rather see two separate classes since I already have to manually de
 
 There is no silver bullet. I couldn't find an existing gem that would solve all my problems. It seems that at the end I have to get dirty and write my own view components library. In the meantime Cells is the best option I have.
 
-This post became quite lenghty but I still have some thoughts on the subject. It is very likely I will post a follow up with a wishlist for a view components library and some code experiments.
+This post became quite lengthy but I still have some thoughts on the subject. It is very likely I will post a follow up with a wish list for a view components library and some code experiments.
 
 
 [1]: https://wicket.apache.org/
