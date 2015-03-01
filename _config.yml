@@ -24,6 +24,10 @@ author:
   email:             tomi.michel@gmail.com
   github:            https://github.com/tmichel
 
+# external services
+disqus_enabled: true
+google_analytics_enabled: true
+
 redcarpet:
   extensions:
     - autolink

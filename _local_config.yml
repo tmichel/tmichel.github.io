@@ -1,0 +1,6 @@
+# local overrides
+
+# disable external services
+disqus_enabled: false
+google_analytics_enabled: false
+
