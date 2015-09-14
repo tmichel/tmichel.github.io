@@ -3,17 +3,20 @@ layout: page
 title: About
 ---
 
-Tamás Michelberger is a graduate student at [Budapest University of Technology and Economics][1]. His thesis work is about distributed model transformations which is mostly about trying to transform graphs using cloud infrastructure. The whole thing is written in C#, and hopefully it will be open source by time it's been finished. For the record, the exact title is _Distributed application of model transformations in Cloud Environment_.
+Hi there. My name is Tamás Michelberger and I am - as probably you guessed - a software engineer. I'm mostly interested in backend technologies and architecture but I can get by on the frontend as well. At some point in my life I though that UX and interaction design was something that will keep me awake at night so I worked on a few UI related projects. Unfortunately it turned out that I have zero talent for anything that is graphical design. Luckily at that time I was getting more and more into backend stuff so a little course correction did not hurt at all.
 
-If everything works out as planned he will graduate in May 2014.
+Currently I work at Secret Sauce Partners, Inc. trying to make the world a better place for anyone who buys apparel online by giving awesome size recommendations.
 
-Besides studying he is working at a Java shop and in [Kir-Dev][2] building web applications. He is a strong believer in _TDD_ and testing. He tries to apply it whenever he can. He also likes to try out the new shiny framework/language of the week, so at the end of the day he could go back to the same old battle-tested one and feel good about it again.
+I'm quite proud of my master's thesis project which was about distributed model transformations. The implementation is basically useless but it shows some interesting ideas. You can find the code and the thesis itself over at [Github][thesis].
 
-You can reach him on [twitter][3] or via email (tomi.michel at gmail.com).
+At work I mainly use Ruby, Rails, AWS and Docker with a hint of PostgreSQL and MongoDB. On my own time I like to experiment with Ruby, Go, Elm and the new shiny framework of the day, so I can get back to old battle-tested one with a new appreciation.
 
-[The very first post][4] written on this blog. It might not give you deeper insight, but it is a milestone nonetheless.
+You can reach me on twitter [@tmichelberger][twitter].
 
-[1]: http://bme.hu
-[2]: http://kir-dev.sch.bme.hu/about/english
-[3]: https://twitter.com/tmichelberger
-[4]: {% post_url 2013-11-30-first %}
+---
+
+[The very first post][first] written on this blog. It might not give you deeper insight, but it is a milestone nonetheless.
+
+[thesis]: https://github.com/tmichel/thesis
+[twitter]: https://twitter.com/tmichelberger
+[first]: {% post_url 2013-11-30-first %}
