@@ -29,7 +29,7 @@ end
 
 def jekyll_serve(options = nil)
   # load local overrides in config
-  ['jekyll serve --config _config.yml,_local_config.yml', options].compact.join(' ')
+  ['jekyll serve --config _config.yml,_local_config.yml -I', options].compact.join(' ')
 end
 
 def to_filename(raw)
