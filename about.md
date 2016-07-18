@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi there. My name is Tamás Michelberger and I am - as probably you guessed - a software engineer. I'm mostly interested in backend technologies and architecture but I can get by on the frontend as well. At some point in my life I though that UX and interaction design was something that will keep me awake at night so I worked on a few UI related projects. Unfortunately it turned out that I have zero talent for anything that is graphical design. Luckily at that time I was getting more and more into backend stuff so a little course correction did not hurt at all.
+Hi there. My name is Tamás Michelberger and I am - as probably you guessed - a software engineer. I'm mostly interested in backend technologies and architecture but I can get by on the frontend as well. At some point in my life I thought that UX and interaction design was something that will keep me awake at night so I worked on a few UI related projects. Unfortunately it turned out that I have zero talent for anything that is graphical design. Luckily at that time I was getting more and more into backend stuff so a little course correction did not hurt at all.
 
 Currently I work at Secret Sauce Partners, Inc. trying to make the world a better place for anyone who buys apparel online by giving awesome size recommendations.
 
