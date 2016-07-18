@@ -1,36 +1,32 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+permalink: pretty
 timezone: Europe/Budapest
 
 # Setup
-title:               Please be careful
-tagline:             'the cake is a lie'
-description:         "Mostly ramblings about software, frameworks, programming languages and open source. Just the usual stuff."
-url:                 http://tmichel.github.io
-baseurl:             /
-paginate:            5
+title: Please be careful
+tagline: 'the cake is a lie'
+description: >
+  Mostly ramblings about software, frameworks, programming languages
+  and open source. Just the usual stuff.
+url: http://tmichel.github.io
+baseurl: /
+paginate: 5
 
 # About/contact
 author:
-  name:              "Tamás Michelberger"
-  url:               https://twitter.com/tmichelberger
-  email:             tomi.michel@gmail.com
-  github:            https://github.com/tmichel
+  name: "Tamás Michelberger"
+  url: https://twitter.com/tmichelberger
+  email: tomi.michel@gmail.com
+  github: https://github.com/tmichel
 
 # external services
 disqus_enabled: true
 google_analytics_enabled: true
 
-redcarpet:
-  extensions:
-    - autolink
-    - strikethrough
-    - no_intra_emphasis
-    - footnotes
+kramdown:
+  input: GFM
+
+gems:
+  - jekyll-paginate
